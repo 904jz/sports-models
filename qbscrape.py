@@ -6,7 +6,7 @@ import time
 
 playerList = pd.read_csv("QBCleanupList.csv")
 url = "https://www.pro-football-reference.com"
-
+# f
 seasonYear = ['/gamelog/2022/advanced/', '/gamelog/2021/advanced/','/gamelog/2020/advanced/','/gamelog/2019/advanced/']
 
 with open('latestDataPullQB.csv', 'wb') as f:
